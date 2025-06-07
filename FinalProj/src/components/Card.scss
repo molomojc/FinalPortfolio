@@ -1,0 +1,38 @@
+/* src/components/Card.scss */
+.card {
+    background-color: #1e293b;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    transition: box-shadow 0.3s ease-in-out;
+  
+    &:hover {
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
+    }
+  
+    &.card--transparent {
+        background-color: transparent;
+        box-shadow: none;
+        padding: 0;
+    }
+  
+    &__title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #38bdf8;
+    }
+  
+    &__body {
+      p {
+          line-height: 1.6;
+          margin-bottom: 1rem;
+          &:last-child {
+              margin-bottom: 0;
+          }
+      }
+    }
+  }
+  
