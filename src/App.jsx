@@ -293,12 +293,12 @@ const AboutMePage = () => {
   };
 
     const handleDownloadCV = () => {
-        const cvUrl = "public\Jacob_Molomo_CV4.pdf";
+        const cvUrl = "public/Jacob_Molomo_CV4.pdf";
         const link = document.createElement('a');
         link.href = cvUrl;
         link.setAttribute('download', 'Jacob_Molomo_CV.pdf');
         document.body.appendChild(link);
-        if (cvUrl === "public\Jacob_Molomo_CV4.pdf") {
+        if (cvUrl === "public/Jacob_Molomo_CV4.pdf") {
             const messageBox = document.createElement('div');
             messageBox.className = "download-error-message";
             messageBox.textContent = 'CV download link is a placeholder. Please update the path.';
