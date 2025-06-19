@@ -30,8 +30,131 @@ const initialProjects = [
     name: 'BTCUSD price prediction',
     description: 'A powerful tool for visualizing complex datasets. Offers interactive charts and dashboards for insightful data analysis.',
     imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
-    githubUrl: 'https://github.com/molomojc/netfly',
+    githubUrl: 'https://github.com/molomojc/ML_BOT',
     tags: ['Python']
+  },
+  {
+    id: generateId(),
+    name: 'TCP_CLient_SERVER',
+    description: 'An innovative network system, That allows Staff and Student to send and retrieve Images of women whom impacted their lives.',
+    imageUrl: 'https://raw.githubusercontent.com/molomojc/TCP_CONNECTION/main/TCPimg.png',
+    githubUrl: 'https://github.com/molomojc/TCP_CONNECTION',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'HTTP Client-Server',
+    description: 'Handling HTTP requests and responses using Multi-threading.',
+    imageUrl: 'https://raw.githubusercontent.com/molomojc/HTTP_SERVER/main/HTTPimg.png',
+    githubUrl: 'https://github.com/molomojc/HTTP_SERVER',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'UDP_CLIENT-SERVER',
+    description: 'A simple UDP client-server application that allows users to send and receive request over a network using the User Datagram Protocol (UDP).',
+    imageUrl: 'https://raw.githubusercontent.com/molomojc/UDP_CLIENT_SERVER/main/UDP.png',
+    githubUrl: 'https://github.com/molomojc/UDP_CLIENT_SERVER',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'SMTP Client',
+    description: 'A simple SMTP client application that allows users to send to a specific email address using the Simple Mail Transfer Protocol (SMTP).',
+    imageUrl: 'https://raw.githubusercontent.com/molomojc/SMTP_AU/main/SMTP.png',
+    githubUrl: 'https://github.com/molomojc/SMTP_AU',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'PuTTy Server',
+    description: 'A simple Weather application that allows users to get the current weather information for a specific location.',
+    imageUrl: 'https://raw.githubusercontent.com/molomojc/PuTTy_Server/main/PuttyServer.png',
+    githubUrl: 'https://github.com/molomojc/PuTTy_Server',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'GENERICS',
+    description: 'Intro to Gnerics in Java, a simple application that demonstrates the use of generics in Java programming.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/JavaGenerics_Intro',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'ArrayList implementation',
+    description: 'demostrate the implementation of an ArrayList in Java, showcasing basic operations like add, remove, and get.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/ArrayList_Implementation',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'Queue implementation',
+    description: 'demostrates the implementation of a Queue in Java, showcasing basic operations like enqueue, dequeue, and peek.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/Queue_Implementation',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'AVL Tree implementation',
+    description: 'demostrate the implementation of an AVL Tree in Java, showcasing basic operations like insert, delete, and balance.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/AVL_TREE_Implementation',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'Doubly Linked List implementation',
+    description: 'demostrate the implementation of a Doubly Linked List in Java, showcasing basic operations like add, remove, and traverse.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/DoublyLinkedList_implementation',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'HashTable implementation',
+    description: 'demostrate the implementation of a HashTable in Java, showcasing basic operations like put, get, and remove.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/HashTable',
+    tags: ['JAVA']
+  },
+  {
+    id: generateId(),
+    name: 'Heap Sort implementation',
+    description: 'demostrate the implementation of Heap Sort in Java, showcasing the sorting of an array using the heap data structure.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/HeapImplementtation',
+    tags: ['JAVA']
+  }
+  ,
+  {
+    id: generateId(),
+    name: 'Singly Linked List implementation',
+    description: 'demostrate the implementation of a Singly Linked List in Java, showcasing basic operations like add, remove, and traverse.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/SInglyLinkedList_Implementation',
+    tags: ['JAVA']
+  }
+  ,
+  {
+    id: generateId(),
+    name: 'Skip List implementation',
+    description: 'demostrate the implementation of a Skip List in Java, showcasing basic operations like insert, delete, and search.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/SkipList_Implementation',
+    tags: ['JAVA']
+  }
+  ,
+  {
+    id: generateId(),
+    name: 'Tree implementation',
+    description: 'demostrate the implementation of a Tree in Java, showcasing basic operations like insert, delete, and traverse.',
+    imageUrl: 'https://specials-images.forbesimg.com/imageserve/64d24936a0c9451a52034c63/Training-machine-learning-model-concept/960x0.jpg?fit=scale',
+    githubUrl: 'https://github.com/molomojc/TreeImplementation',
+    tags: ['JAVA']
   }
 ];
 
@@ -211,6 +334,8 @@ Provide a catchy "name", a short "description" (1-2 sentences), and a list of 3-
                         <ProjectCardItem key={project.id} project={project} />
                     ))}
                 </div>
+
+                
             </Card>
         </div>
     );
