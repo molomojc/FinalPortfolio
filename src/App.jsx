@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import ProjectsPage from './component/ProjectsPage';
 import Navbar from './component/NavBar';
-import Hero from './component/Hero';
+import Hero from './component/hero';
 import About from './component/about';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
